@@ -25,3 +25,6 @@ This type of task refers specifically to the change in the pose property of the 
 
 #### Manipulation Task.
 This type of task refers to any kind of interaction between an object and a robot end effector, in which the end effector must change the current state of the object or any property of it (pose, shape, color, etc.).
+
+#### Compoused Task.
+It is a list of tasks, where each task could be either an Inspection, Transportation or a Manipulation. the tasks must pe placed in the list in the order in wich they must be performed. 
