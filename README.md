@@ -24,7 +24,7 @@ For this task a robot processes the information sensed with one or more peripher
 This type of task refers specifically to the change in the pose property of the object or objects to be transported from one position to another, The robots that performs this tasks have a surface where the objects are placed for their transportation. **A transportation task does not involve an end effector**.
 
 #### Manipulation Task.
-This type of task refers to any kind of interaction between an object and a robot end effector, in which the end effector must change the current state of the object or any property of it (pose, shape, color, etc.).
+This type of task refers to any kind of interaction between an object and a robot end effector, in which the end effector must change either the current state of the object or any property of it (pose, shape, color, etc.). Applying glue, welding, pick and place, drilling and screwing are considered manipulation tasks.
 
-#### Compoused Task.
-It is a list of tasks, where each task could be either an Inspection, Transportation or a Manipulation. the tasks must pe placed in the list in the order in wich they must be performed. 
+#### Compound Task.
+It is a list of tasks, where each task could be either an Inspection, a Transportation or a Manipulation. the tasks must be placed in the list in the order in which they must be performed. 
