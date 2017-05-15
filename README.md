@@ -15,7 +15,7 @@ A typical industrial task is composed of the following elements:
 > ##### Objects (the list of objects to inspect, transport and/or manipulate).
 
 ### Type of Task (Inspection, Transportation, Manipulation and Compound).
-Each tasks vary in complexity, this complexity depends on the elements that compose the task, their limitations and the way in which those elements must interact.
+Each tasks vary in complexity, this complexity depends on the elements that compose the task, their limitations and the way in which those elements interact.
 
 #### Inspection Task.
 For this task a robot processes the information sensed with one or more peripherals which communicate their sensed information (scene) to the robot. The robot processes/interpret the information finding the current state of the senses scene and the state of the elements that are in the scene.
