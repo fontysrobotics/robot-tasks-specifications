@@ -1,20 +1,20 @@
 # robot-tasks-specifications
-This repository has all the specifications (classes in C++ and python) needed to use a predifined industrial task.
+This repository has all the specifications (classes in C++ and python) needed to use a predefined industrial task.
 
-## Typical Industrial tasks.
-A typical industrial task is compose of the following elements:
+## Industrial tasks.
+A typical industrial task is composed of the following elements:
 
-> ##### Type of Task (Inspection, Transportation, Manipulation and composed).
+> ##### Type of Task (Inspection, Transportation, Manipulation and Compound).
 
 > ##### List of Goals positions (Goal Poses).
 
 > ##### Time at the goal position (optional).
 
-> ##### Surface in which the object is placed. (static surface, conveyor belt, rotating surface, etc.)
+> ##### Surface to interact with. (static surface, conveyor belt, rotating surface, etc.)
 
-> ##### Object (the object to inspect, manipulate and/or transport).
+> ##### Objects (the list of objects to inspect, transport and/or manipulate).
 
-### Type of Task (Inspection, Transportation, Manipulation and composed).
+### Type of Task (Inspection, Transportation, Manipulation and Compound).
 Each tasks vary in complexity, this complexity depends on the elements that compose the task, the way in which those elements must interact and the objects to manipulate.
 
 #### Inspection Task.
