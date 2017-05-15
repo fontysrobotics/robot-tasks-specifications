@@ -21,7 +21,7 @@ Each tasks vary in complexity, this complexity depends on the elements that comp
 For this task a robot processes the information sensed with one or more peripherals wich communicate their sensed information (scene) to the robot. The robot processes/interpret the information finding the current state of the sensed scene and the state of the elements that are in the scene.
 
 #### Transportation Task.
-This type of task refers specifically to the change in the pose property of the object and does not involve an end effector.
+This type of task refers specifically to the change in the pose property of the object or objects to be transported from one position to another, The robots that performs this tasks have a surface where the objects are placed for their transportation. **A transportation task does not involve an end effector**.
 
 #### Manipulation Task.
-This type of task refers to any kind of interaction between an object and a robot end effector, in which the end effector must change the current state of the object (pose, shape or the change in any property of the object).
+This type of task refers to any kind of interaction between an object and a robot end effector, in which the end effector must change the current state of the object or any property of it (pose, shape, color, etc.).
