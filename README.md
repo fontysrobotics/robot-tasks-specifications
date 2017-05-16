@@ -27,4 +27,6 @@ This type of task refers specifically to the change in the pose property of the 
 This type of task refers to any kind of interaction between an object and a robot end effector, in which the end effector must change either the current state of the object or any property of it (pose, shape, color, etc.). Applying glue, welding, pick and place, drilling and screwing are considered manipulation tasks.
 
 #### Compound Task.
-It is a list of tasks, where each task could be either an Inspection, a Transportation or a Manipulation. the tasks must be placed in the list in the order in which they must be performed. 
+It is a list of tasks, where each task could be either an Inspection, a Transportation or a Manipulation. the tasks must be placed in the list in the order in which they are going to be performed.
+
+## Elements in a task
